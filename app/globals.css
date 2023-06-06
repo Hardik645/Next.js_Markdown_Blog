@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.all{
+  color: #ae8054;
+}
+@layer components {
+    .Nav-Link {
+      @apply text-white/90 hover:text-white hover:scale-125 transition-all duration-500 cursor-pointer
+    }
+}
